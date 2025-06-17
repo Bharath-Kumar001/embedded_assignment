@@ -1,1 +1,1 @@
-I don't have prior work experience in PCB design, so there may be some mistakes in the schematic or layout. I’ve done my best to learn and apply the concepts while working on this project. The whole assignment was completed over 2-3 days, including learning KiCad basics, making the symbol and footprint for nPM1100, wiring the schematic, and doing the PCB layout.
+

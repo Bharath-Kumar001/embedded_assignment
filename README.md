@@ -16,13 +16,11 @@ This repository includes:
 - `npm1100_eval_schematic.kicad_sch(schematic)
 - `npm1100_eval_layout.kicad_pcb(PCB layout)
 - `npm1100_eval_bom.csv`
-- 
 ## 2. FreeRTOS Task Example
 Demonstrates task-to-task queue communication.
 **Logic:**
 - `Task1` sends (ID, value) every 500ms
 - `Task2` acts based on value (kill/reset/boost priority)
-- 
 **File:**
 - `freertos_queue_example.c`
 ---

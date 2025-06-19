@@ -15,8 +15,8 @@ This repository includes:
 **Files:**
 - `npm1100_eval_schematic.kicad_sch(schematic)
 - `npm1100_eval_layout.kicad_pcb(PCB layout)
-- `npm1100_eval_bom.csv`freertos__.c
-
+- `npm1100_eval_bom.csv`
+- 
 ## 2. FreeRTOS Task Example
 Demonstrates task-to-task queue communication.
 **Logic:**

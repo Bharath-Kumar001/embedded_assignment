@@ -1,5 +1,37 @@
 
-This FreeRTOS example shows how two tasks talk using a queue. Task1 sends data (id & val) every 500ms. Task2 gets the data and reacts: id 0 → kills itself id 1: val 0 - boost its prio by 2 (only once) ,,val 1 - reset prio back if boosted,,val 2 -delete itself
-Other values just get printed.
+# Embedded Assignment – PCB Design & FreeRTOS
 
-I don't have prior work experience in PCB design, so there may be some mistakes in the schematic or layout. I’ve done my best to learn and apply the concepts while working on this project. The whole assignment was completed over 2-3 days, including learning KiCad basics, making the symbol and footprint for nPM1100, wiring the schematic, and doing the PCB layout.
+This repository includes:
+
+1. **nPM1100 Evaluation Board** (PCB Design – KiCad 9)
+2. **FreeRTOS Task Communication Example**
+---
+## 1. nPM1100 Evaluation Board
+
+- Designed in **KiCad 9**
+- 3.0V output, 200mA charge current
+- 35mm x 35mm, all SMD components (top-mounted)
+
+**Files:**
+- `npm1100_eval_schematic.kicad_sch(schematic)
+- `npm1100_eval_layout.kicad_pcb(PCB layout)
+- `npm1100_eval_bom.csv`freertos__.c
+
+## 2. FreeRTOS Task Example
+Demonstrates task-to-task queue communication.
+**Logic:**
+- `Task1` sends (ID, value) every 500ms
+- `Task2` acts based on value (kill/reset/boost priority)
+- 
+**File:**
+- `freertos_queue_example.c`
+---
+## Tools Used
+
+- KiCad 9  
+- FreeRTOS  
+- SnapEDA (footprints)
+---
+## Author
+
+**BharathKumar M**
